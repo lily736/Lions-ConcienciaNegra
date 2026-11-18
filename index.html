@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://base44.com/logo_v2.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="description" content="Site antirracista da EEEFM Lions «Sebastião de Paiva Vidaurre», em Cachoeiro de Itapemirim - ES: protocolo escolar, personalidades negras, dicas antirracistas e mural de vozes." />
+    <meta name="theme-color" content="#17110c" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
+      try {
+        if (localStorage.getItem('lions-theme') === 'light') document.documentElement.classList.add('light');
+        var s = Number(localStorage.getItem('lions-scale'));
+        if (s >= 90 && s <= 140) document.documentElement.style.fontSize = s + '%';
+      } catch (e) {}
+    </script>
+    <title>Consciência Negra — EEEFM Lions «Sebastião de Paiva Vidaurre»</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
